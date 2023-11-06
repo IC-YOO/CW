@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width"
+    />
+    <title>Cosmic-Whale: 부유고래의 스토리 블로그</title>
+    <link rel="alternate" type="application/rss+xml" title="Cosmic-Whale" href="https://cosmin-whale.tistory.com/rss" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./images/all.css" />
+    <!--[if lt IE 9]>
+      <script src="//t1.daumcdn.net/tistory_admin/lib/jquery/jquery-1.12.4.min.js"></script>
+    <![endif]-->
+    <!--[if gte IE 9]><!-->
+    <script src="//t1.daumcdn.net/tistory_admin/lib/jquery/jquery-3.2.1.min.js"></script>
+    <!--<![endif]-->
+  </head>
+  <body id="tt-body-page">
+    <s_t3>
+      <div id="container">
+        <div id="header">
+          <div class="global-warp">
+            <h1 class="blog-title">
+              <a href="https://cosmin-whale.tistory.com/"> Cosmic-Whale 부유고래 </a>
+            </h1>
+            <div class="header-nav">
+              <ul>
+                <li>
+                  <div class="search">
+                    <s_sidebar_element>
+                      <s_search>
+                        <input
+                          type="text"
+                          name="[##_search_name_##]"
+                          value="[##_search_text_##]"
+                          onkeypress="if (event.keyCode == 13) { [##_search_onclick_submit_##] }"
+                        />
+                        <input value="검색" type="button" onclick="[##_search_onclick_submit_##]" class="submit" />
+                      </s_search>
+                    </s_sidebar_element>
+                    <!-- <div class="area_search">
+                    <form
+                      action="/search"
+                      method="get"
+                      class="frm_search"
+                      onsubmit="try{window.location.href
+                                    = '/search/' + encodeURIComponent(document.getElementsByName('search')[0].value);
+                                     document.getElementsByName('search')[0].value
+                                       = ''; return false;} catch(e){}"
+                    >
+                      <fieldset>
+                        <legend class="sr-only">검색하기 폼</legend>
+                        <input
+                          type="text"
+                          name="search"
+                          value=""
+                          class="search-input"
+                          title="검색하기"
+                          placeholder="Search"
+                        />
+                        <button type="button" class="btn-search">
+                          <i class="fa fa-search fa-lg" id="btnSearch"></i>
+                        </button>
+                      </fieldset>
+                    </form>
+                  </div> -->
+                  </div>
+                </li>
+                <li class="taglog">
+                  <a href="https://cosmin-whale.tistory.com/tag" title="태그"><i class="fa-solid fa-tags"></i></a>
+                </li>
+                <li class="localog">
+                  <a href="" title="위치로그"><i class="fa fa-map-marker fa-lg"></i></a>
+                </li>
+                <li class="guestbook">
+                  <a href="https://cosmin-whale.tistory.com/guestbook" title="방명록"
+                    ><i class="fa fa-book fa-lg"></i
+                  ></a>
+                </li>
+                <li class="rss">
+                  <a
+                    href="https://cosmin-whale.tistory.com/rss"
+                    onclick="window.open(this.href); return false"
+                    title="rss"
+                    ><i class="fa fa-rss fa-lg"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- header close -->
+
+        <div id="contentWrap">
+          <div id="content">
+            <s_list>
+              <!-- 검색결과 목록 시작 -->
+              <div class="search-list">
+                <h3>''에 해당되는 글 건</h3>
+                <ol class="search-item">
+                  <s_list_rep>
+                    <li>
+                      <p class="date"></p>
+                      <a href="http://cosmic-whale.tistory.com/admin/entry/post/"> <span class="cnt">(3)</span></a>
+                    </li>
+                  </s_list_rep>
+                </ol>
+              </div>
+              <!-- 검색결과 목록 끝 -->
+            </s_list>
+
+            <!-- <div class="searchList">11. 검색 결과 리스트</div>
+            <div class="searchRplist">12. 검색 결과 댓글 리스트</div> -->
+            <div class="locallog">13. 위치 로그</div>
+            <div class="taglog">14. 태그 클라우드</div>
+
+            <div class="guestbook">
+              15. 방명록
+              <div class="guestWrite">15-1. 방명록 글쓰기</div>
+              <div class="guestList">15-2. 방명록 리스트</div>
+            </div>
+            <!-- guestbook close -->
+
+            <div class="entryNotice">16. 공지사항 글</div>
+
+            <div class="entryProtected">17. 보호 글</div>
+
+            <div class="entry">
+              18. 글
+              <div class="titleWrap">18-1. 글 제목 | 카테고리 | 작성일 | 글 관리</div>
+              <div class="article">18-2. 글</div>
+              <div class="tagTrail">18-3. 글 관련 태그</div>
+              <div class="actionTrail">18-4. 트랙백 | 댓글</div>
+              <div class="trackback">18-5. 트랙백</div>
+              <div class="code_comment">
+                18-6. 댓글
+                <div class="code_commentList">18-6-1. 댓글 리스트</div>
+                <div class="code_commentWrite">18-6-2. 댓글 쓰기</div>
+              </div>
+            </div>
+            <!-- entry close -->
+
+            <div class="entry">19. 페이지</div>
+          </div>
+          <!-- content close -->
+          <s_t3>
+            <s_sidebar>
+              <!-- 사이드바 모듈 테스트 -->
+              <s_sidebar_element>
+                <div id="test 1">
+                  <h3>사이드바 모듈 테스트</h3>
+                  <p>module one</p>
+                </div>
+              </s_sidebar_element>
+            </s_sidebar>
+          </s_t3>
+
+          <!-- sidebar close -->
+        </div>
+        <!-- //contentWrap close -->
+
+        <div id="footer">#footer</div>
+        <!-- footer close -->
+      </div>
+      <!-- container close -->
+    </s_t3>
+
+    <script src="./images/script.js"></script>
+  </body>
+</html>
